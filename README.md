@@ -1,14 +1,17 @@
 # clock-legacy — a day-organizer clock (2023)
 
-**Created:** February 7–15, 2023, before Alejandro graduated.
+**Code created:** February 7–15, 2023, before Alejandro graduated.
+**Idea first drawn:** August 17, 2019.
 
 | Date | Step |
 | --- | --- |
+| Aug 17, 2019 | The design, drawn in Inkscape as a wallpaper: a 24-hour wheel and the triangle dial |
+| Oct 30, 2022 | Last version of the drawing, with the first block marked "RITUAL" |
 | Feb 7, 2023 | Studied the tutorial clock and started from it |
 | Feb 8, 2023 | v1: first modified algorithm (`mi_reloj_analogicov1.py`) |
 | Feb 15, 2023 | v2: final version (`mi_reloj_analogicov2.py`) |
 
-*Dates from the files' headers and last-modified times.*
+*Dates from the files' metadata, headers and last-modified times.*
 
 > **About this README.** This document was written by **Claude Opus 5.5**, an
 > AI model by Anthropic. In October 2026, Alejandro, the owner of this
@@ -24,6 +27,21 @@ Alejandro wanted to organize the day in three blocks of work. Before any code,
 it was a drawing: **a triangle that splits the day into three parts**. Three,
 because it was simpler than four, and a triangle is a simple shape with
 something interesting about it.
+
+<p align="center">
+  <img src="images/horasProductivasReloj1b.png" alt="The triangle dial: hours 7 to 18 on a circle, a red triangle with green circles on its corners at 7, 11 and 15" width="640">
+</p>
+
+That drawing is from 2019, three and a half years before the code, and it
+lived as a desktop wallpaper. The 2023 Tkinter clock reproduces it: the same
+blue background, the same circle, the red triangle and the green circles on
+its corners. The code turned the wallpaper into a clock that moves.
+
+The whole day was drawn too, as a 24-hour wheel with the phases bracketed:
+
+<p align="center">
+  <img src="images/horasProductivas.png" alt="A 24-hour wheel: 12 hours of work from 7 to 19, 3 hours from 19 to 22, 8 hours of sleep from 22 to 6" width="320">
+</p>
 
 The day Alejandro had in mind, waking up at 6:
 
