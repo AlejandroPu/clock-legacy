@@ -32,8 +32,8 @@ something interesting about it.
   <img src="images/horasProductivasReloj1b.png" alt="The triangle dial: hours 7 to 18 on a circle, a red triangle with green circles on its corners at 7, 11 and 15" width="640">
 </p>
 
-That drawing is from 2019, three and a half years before the code, and it
-lived as a desktop wallpaper. The 2023 Tkinter clock reproduces it: the same
+The design dates from 2019, three and a half years before the code, and it
+lived as a desktop wallpaper. This is its last version, from 2022. The 2023 Tkinter clock reproduces it: the same
 blue background, the same circle, the red triangle and the green circles on
 its corners. The code turned the wallpaper into a clock that moves.
 
