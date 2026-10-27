@@ -10,6 +10,7 @@
 | Feb 7, 2023 | Studied the tutorial clock and started from it |
 | Feb 8, 2023 | v1: first modified algorithm (`mi_reloj_analogicov1.py`) |
 | Feb 15, 2023 | v2: final version (`mi_reloj_analogicov2.py`) |
+| Oct 26, 2026 | [Day Clock](#what-came-next), the second version, released in the Microsoft Store |
 
 *Dates from the files' metadata, headers and last-modified times.*
 
@@ -209,8 +210,20 @@ code and its comments are in Spanish, as Alejandro wrote them.
 
 ## What came next
 
-The second version, rebuilt in 2026 with AI assistance, light enough to leave
-open all day: *link coming soon*.
+The second version is **Day Clock**, rebuilt in 2026 by Alejandro with an AI
+agent and sold in the Microsoft Store since October 26, 2026. It keeps the idea
+of this repo, a dial that changes with the phase of the day, and fixes what
+kept the 2023 clock from daily use: the dial is drawn once per phase, and each
+second only the hands move. A test runs the clock through two full days and
+checks that the number of shapes never grows. Measured on the real window, it
+uses about 0.8 % of one CPU core and 49 MB of memory. The wake-up time also
+takes minutes, not only whole hours: the default is 06:30.
+
+**Day Clock:** <https://www.cerebritos.cl/apps/day-clock/>, with the guide and
+the link to the Microsoft Store.
+
+Day Clock is a commercial app, so its code is not public. This repo stays as
+the record of where it came from.
 
 ## License
 
